@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seedsky – Bloqueur d'apps et minuteur Pomodoro pour iPhone</title>
+<meta name="description" content="Seedsky bloque les apps qui te distraient et transforme chaque session de révision ou de travail en un jardin flottant peint à la main. Minuteur de concentration gratuit pour iPhone, sans compte ni pub.">
+<link rel="canonical" href="https://seedskyapp.github.io/fr/">
+<link rel="alternate" hreflang="en" href="https://seedskyapp.github.io/">
+<link rel="alternate" hreflang="fr" href="https://seedskyapp.github.io/fr/">
+<link rel="alternate" hreflang="x-default" href="https://seedskyapp.github.io/">
+<meta name="apple-itunes-app" content="app-id=6834386341">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Seedsky">
+<meta property="og:title" content="Seedsky – Bloque tes apps, fais pousser un jardin dans le ciel">
+<meta property="og:description" content="Un bloqueur d'apps et un minuteur Pomodoro pour iPhone. Reste concentré : une plante peinte à la main pousse sur tes îles flottantes.">
+<meta property="og:url" content="https://seedskyapp.github.io/fr/">
+<meta property="og:image" content="https://seedskyapp.github.io/og.jpg">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:locale:alternate" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../icon.png">
+<link rel="apple-touch-icon" href="../icon.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MobileApplication",
+      "@id": "https://seedskyapp.github.io/#app",
+      "name": "Seedsky",
+      "alternateName": "Seedsky : Bloqueur d'apps",
+      "description": "Seedsky est un bloqueur d'apps et un minuteur Pomodoro pour iPhone. Choisis une durée et une plante, bloque les apps qui te distraient : la plante pousse tant que tu restes concentré, et fane si tu pars trop longtemps.",
+      "applicationCategory": "ProductivityApplication",
+      "operatingSystem": "iOS 26 ou plus récent",
+      "url": "https://seedskyapp.github.io/fr/",
+      "downloadUrl": "https://apps.apple.com/app/id6834386341",
+      "image": "https://seedskyapp.github.io/og.jpg",
+      "inLanguage": "fr",
+      "isAccessibleForFree": true,
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "Seedsky est-il gratuit ?", "acceptedAnswer": {"@type": "Answer", "text": "Oui. Seedsky est gratuit sur l'App Store, sans publicité et sans compte."}},
+        {"@type": "Question", "name": "Comment fonctionne le blocage des apps ?", "acceptedAnswer": {"@type": "Answer", "text": "Seedsky utilise le Temps d'écran d'Apple, pour ton propre iPhone. Choisis les apps à bloquer (réseaux sociaux, jeux…) : elles restent fermées jusqu'à la fin de la session. Les autres restent ouvertes, mais quitter Seedsky lance un court temps de grâce avant que ta plante fane."}},
+        {"@type": "Question", "name": "Puis-je l'utiliser comme minuteur Pomodoro pour réviser ?", "acceptedAnswer": {"@type": "Answer", "text": "Oui. Une session dure de 5 minutes à 3 heures : 25 minutes pour un Pomodoro classique, ou plus pour les révisions et le travail en profondeur."}},
+        {"@type": "Question", "name": "Seedsky collecte-t-il mes données ?", "acceptedAnswer": {"@type": "Answer", "text": "Non. Aucun compte, aucun serveur, aucun suivi. Tes sessions et tes jardins restent sur ton iPhone."}}
+      ]
+    }
+  ]
+}
+</script>
+<style>
+  :root { --ink: #24341f; --soft: #56634f; --leaf: #4f7a2a; --card: rgba(255,255,255,.72); --sky1: #abcfe8; --sky2: #f6f0de; }
+  @media (prefers-color-scheme: dark) { :root { --ink: #eceee3; --soft: #b9c1b0; --leaf: #9bc46a; --card: rgba(20,32,56,.72); --sky1: #0c1630; --sky2: #26344f; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 18px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Rounded", system-ui, sans-serif; color: var(--ink); background: linear-gradient(var(--sky1), var(--sky2)) fixed; }
+  main { max-width: 960px; margin: 0 auto; padding: 32px 16px 64px; }
+  nav { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+  nav a { color: var(--soft); text-decoration: none; font-size: 15px; }
+  .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 20px; color: var(--ink); }
+  .brand img { width: 40px; height: 40px; border-radius: 10px; }
+  header { text-align: center; padding: 48px 0 24px; }
+  h1 { font-size: clamp(32px, 6vw, 54px); line-height: 1.1; margin: 0 0 16px; }
+  .lead { font-size: 20px; color: var(--soft); max-width: 640px; margin: 0 auto 28px; }
+  .store { display: inline-block; background: #111; color: #fff; padding: 14px 26px; border-radius: 14px; text-decoration: none; font-weight: 600; }
+  .note { font-size: 14px; color: var(--soft); margin-top: 10px; }
+  .screens { width: 100%; height: auto; border-radius: 24px; margin: 32px 0; }
+  h2 { font-size: 28px; margin: 48px 0 16px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+  .card { background: var(--card); border-radius: 20px; padding: 20px 22px; }
+  .card h3 { margin: 0 0 6px; font-size: 19px; }
+  .card p { margin: 0; color: var(--soft); }
+  ol { padding-left: 22px; }
+  details { background: var(--card); border-radius: 16px; padding: 14px 18px; margin: 10px 0; }
+  summary { font-weight: 600; cursor: pointer; }
+  footer { margin-top: 56px; font-size: 15px; color: var(--soft); text-align: center; }
+  footer a, main a { color: var(--leaf); }
+</style>
+</head>
+<body>
+<main>
+  <nav>
+    <span class="brand"><img src="../icon.png" alt="Icône de l'app Seedsky" width="40" height="40">Seedsky</span>
+    <a href="../" hreflang="en" lang="en">English</a>
+  </nav>
+
+  <header>
+    <h1>Bloque les apps qui te distraient.<br>Fais pousser un jardin dans le ciel.</h1>
+    <p class="lead">Seedsky est un <strong>bloqueur d'apps</strong> et un <strong>minuteur Pomodoro</strong> pour iPhone. Reste concentré : une plante peinte à la main pousse sur tes îles flottantes. Pars trop longtemps, et elle fane.</p>
+    <a class="store" href="https://apps.apple.com/app/id6834386341">Télécharger dans l'App Store</a>
+    <p class="note">Gratuit · iPhone · Sans compte, sans pub, sans suivi</p>
+  </header>
+
+  <img class="screens" src="../screens.jpg" alt="Captures de Seedsky : un jardin flottant, l'écran pour planter avec le minuteur, et l'écran de blocage des apps" width="1600" height="1100" loading="lazy">
+
+  <h2>Comment ça marche</h2>
+  <ol>
+    <li><strong>Choisis une durée et une plante</strong>, de 5 minutes à 3 heures. 25 minutes font un Pomodoro classique.</li>
+    <li><strong>Bloque les apps qui te distraient</strong> : réseaux sociaux, jeux, vidéos. Elles restent fermées jusqu'à la fin de la session.</li>
+    <li><strong>Pose ton téléphone.</strong> Ta plante grandit, du germe jusqu'à l'arbre adulte, et rejoint ton jardin.</li>
+  </ol>
+
+  <h2>Tout pour rester concentré</h2>
+  <div class="grid">
+    <div class="card"><h3>Bloqueur d'apps</h3><p>Basé sur le Temps d'écran d'Apple. Une app bloquée affiche un écran calme, sans échappatoire avant la fin de ta session.</p></div>
+    <div class="card"><h3>Minuteur Pomodoro et révisions</h3><p>Des sprints courts ou de longues sessions. Une catégorie par matière ou activité, chacune avec son objectif du jour.</p></div>
+    <div class="card"><h3>Un jardin vivant</h3><p>Des îles flottantes peintes à la main, près de 50 espèces, plus de 100 décorations, des animaux, le jour et la nuit.</p></div>
+    <div class="card"><h3>Pièces, séries et objectifs</h3><p>Une minute de concentration rapporte une pièce. Atteins ton objectif jour après jour : bonus et plante majestueuse.</p></div>
+    <div class="card"><h3>Statistiques</h3><p>Ton temps de concentration par semaine et par mois, tes meilleures heures, ton herbier et tes séries.</p></div>
+    <div class="card"><h3>Respect de ta vie privée</h3><p>Aucun compte, aucun serveur, aucune pub, aucun suivi. Tout reste sur ton iPhone.</p></div>
+  </div>
+
+  <h2>Pensé pour les étudiants</h2>
+  <p>Réviser tes examens, écrire ton mémoire, faire tes devoirs : donne à chaque matière son jardin, fixe un objectif quotidien, et regarde tes îles grandir avec tes heures de travail.</p>
+
+  <h2>Questions</h2>
+  <details><summary>Seedsky est-il gratuit ?</summary><p>Oui. Seedsky est gratuit sur l'App Store, sans publicité et sans compte.</p></details>
+  <details><summary>Comment fonctionne le blocage des apps ?</summary><p>Seedsky utilise le Temps d'écran d'Apple, pour ton propre iPhone. Les apps choisies restent fermées jusqu'à la fin de la session. Les autres restent ouvertes, mais quitter Seedsky lance un court temps de grâce avant que ta plante fane.</p></details>
+  <details><summary>Puis-je l'utiliser comme minuteur Pomodoro pour réviser ?</summary><p>Oui. Une session dure de 5 minutes à 3 heures : 25 minutes pour un Pomodoro classique, ou plus pour les révisions.</p></details>
+  <details><summary>Que se passe-t-il si je quitte l'app ?</summary><p>Un temps de grâce protège ta plante : reviens vite et elle se remet. Verrouiller l'écran ne compte pas. Le mode doux met la session en pause à la place.</p></details>
+  <details><summary>Seedsky collecte-t-il mes données ?</summary><p>Non. Lis la <a href="/seedsky/confidentialite.html">politique de confidentialité</a>.</p></details>
+
+  <footer>
+    <p><a href="https://apps.apple.com/app/id6834386341">App Store</a> · <a href="/seedsky/">Assistance</a> · <a href="/seedsky/confidentialite.html">Confidentialité</a> · <a href="mailto:seedsky.app@icloud.com">seedsky.app@icloud.com</a></p>
+  </footer>
+</main>
+</body>
+</html>
