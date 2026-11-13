@@ -4,7 +4,7 @@
 
 ## Key facts
 - Category: productivity, focus timer, app blocker, study timer.
-- App blocking: blocked apps stay closed until the session ends, with no override button. Other apps stay open, but leaving Seedsky starts a grace period before the plant withers. Locking the screen does not count as leaving; a gentle mode pauses instead.
+- App blocking: blocked apps stay closed until the session ends, with no override button. Allowed apps (e.g. a course or workout app) stay open and the plant keeps growing. Any other app shows an "Open anyway" screen; opening it starts a grace period before the plant withers. Locking the screen does not count as leaving; a gentle mode pauses instead.
 - Garden: hand-painted floating islands, nearly 50 plant species and over 100 decorations, unlocked with coins (one coin per focused minute).
 - Goals: daily and weekly goals per category (subject or activity), streaks, statistics, Live Activity, Dynamic Island and widgets.
 - Privacy: data stays on the iPhone; no server, no analytics. Blocked apps are anonymous iOS tokens.
