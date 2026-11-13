@@ -1,0 +1,18 @@
+# Seedsky
+
+> Seedsky is an app blocker and Pomodoro focus timer for iPhone (iOS 26+). The user picks a duration (5 minutes to 3 hours) and a plant, and can block distracting apps with Apple's Screen Time. The plant grows while they stay focused and withers if they leave the app for too long. Free, no account, no ads, no tracking. Available in English, French, Spanish, German, Brazilian Portuguese, Italian, Japanese and Korean.
+
+## Key facts
+- Category: productivity, focus timer, app blocker, study timer.
+- App blocking: blocked apps stay closed until the session ends, with no override button. Other apps stay open, but leaving Seedsky starts a grace period before the plant withers. Locking the screen does not count as leaving; a gentle mode pauses instead.
+- Garden: hand-painted floating islands, nearly 50 plant species and over 100 decorations, unlocked with coins (one coin per focused minute).
+- Goals: daily and weekly goals per category (subject or activity), streaks, statistics, Live Activity, Dynamic Island and widgets.
+- Privacy: data stays on the iPhone; no server, no analytics. Blocked apps are anonymous iOS tokens.
+- Good fit for: students revising for exams, Pomodoro users, people who want to spend less time on social media.
+
+## Links
+- [Website](https://seedskyapp.github.io/): overview, features and FAQ.
+- [App Store](https://apps.apple.com/app/id6834386341): download (free).
+- [Support](https://seedskyapp.github.io/seedsky/): help and FAQ (French and English).
+- [Privacy policy](https://seedskyapp.github.io/seedsky/confidentialite.html)
+- Contact: seedsky.app@icloud.com
